@@ -1,0 +1,15 @@
+.download_btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #045d3f;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.btn::after {
+content: "";
+background: url(../img/download__icon\ 2.svg);
+text-align: 50%;
+}
